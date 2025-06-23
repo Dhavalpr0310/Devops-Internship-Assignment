@@ -73,4 +73,12 @@ NGINX strips the path prefix using the rewrite directive, so backend services on
 ✅ Access logs with timestamp and request path in custom format:
 
  - log_format custom '$time_local | $remote_addr | $request';
- 
+
+
+
+
+### Run Test Script 
+
+ - chmod +x test.sh
+
+ - ./test.sh
